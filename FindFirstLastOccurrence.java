@@ -44,9 +44,11 @@ public class FindFirstLastOccurrence {
             if (array[mid] == target) {
                 result = mid;
                 left = mid + 1;
-            } else if (array[mid] < target) {
+            }
+            else if (array[mid] < target) {
                 left = mid + 1;
-            } else {
+            }
+            else {
                 right = mid - 1;
             }
         }
