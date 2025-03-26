@@ -1,0 +1,10 @@
+FileReader:
+FileReader is a Java class specifically designed for reading character files.
+It simplifies the process of reading text data directly from files by handling the underlying file input stream.
+It assumes the default character encoding of the system, which can be convenient for simple text file reading when the encoding is known or matches the system's default.
+
+InputStreamReader:
+InputStreamReader is a more general-purpose Java class that bridges the gap between byte streams and character streams.
+It allows you to read characters from any input stream, not just files.
+A key advantage of InputStreamReader is its ability to specify the character encoding, making it suitable for situations where you need to handle files or input streams with specific encodings.
+This makes it more versatile than FileReader for complex text processing.
